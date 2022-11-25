@@ -3,22 +3,22 @@
 
 Create virtual environment
 
-## python3 -m venv venv
-## venv\Scripts\activate
+# python3 -m venv venv
+# venv\Scripts\activate
 
 install pytorch and dependencies
 
-## you also need nltk
-## pip install nltk
+# you also need nltk
+# pip install nltk
 
 If you get an error during the first run, you also need to install nltk.tokenize.punkt: Run this once in your terminal:
 
-## import nltk
-## nltk.download('punkt')
+# import nltk
+# nltk.download('punkt')
 
 first run the *******python train.py**** file  This will dump data.pth file. And then run
 
-## python chat.py
+# python chat.py
 
 
 ***************************JSON FILE IS VERY IMPORTANT**************************************
